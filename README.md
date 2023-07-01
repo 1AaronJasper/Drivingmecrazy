@@ -31,8 +31,10 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Car-Logo-Designs.jpg)" alt="Logo" width="100" height="100">
+  <!-- <a href="https://github.com/github_username/repo_name">
+    <img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Car-Logo-Designs.jpg)" alt="Logo" width="100" height="100"> -->
+
+  ![alt text](images/Car-Logo-Designs.jpg)
   </a>
 
 <h3 align="center">Driving Me Crazy</h3>
