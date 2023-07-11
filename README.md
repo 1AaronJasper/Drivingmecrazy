@@ -112,8 +112,9 @@ Driving Me Crazy is an alternate site used for searching cars that you may poten
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Building oujt HTML to match the template of my wireframe
+Setting the logic in JS so  that the search functions  render the data for each section
+Styling out the wireframe using CSS
 
 ### Prerequisites
 
@@ -125,7 +126,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Got API Key at [https://api.api-ninjas.com/v1/cars?limit=2&model=]
 2. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
@@ -134,9 +135,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Enter your API in 
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = 'QQcgi2D/1uiJJWqIS8H83w==zsssgsMWSIkaWkvW'';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>

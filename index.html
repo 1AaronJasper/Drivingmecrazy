@@ -5,81 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drive Me Crazy</title>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <H1>Driving Me Crazy</H1>
+    <h1>Driving Me Crazy</h1>
+    <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Cars</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+   
+    <div class="container">
     <main>
-        <h1>Basic</h1>
-        <h3>Make</h3>
-        <p id="Make"></p>
-        <h3>Model</h3>
-        <p id="Model"></p>
-        <h3>Year</h3>
-        <p id="Year"></p>
-        <h3>Costs</h3>
-        <p id="Costs"></p>
-        <h3>Features</h3>
-        <p id="Features"></p>
-        </main>
+        <div class="headings">
+        <h2>Basic</h2>
+        </div>
+        <div class="results">
+        <h5>Make</h5>
+        <p id="makeBasic"></p>
+        <h5>Model</h5>
+        <p id="modelBasic"></p>
+        <h5>Year</h5>
+        <p id="yearBasic"></p>
+        </div>
+    </main>
         <form>
-            <input type="text" placeholder="Search Cars">
+            <input type="text" id="typeFieldBasic" name="basicSearch" placeholder="Search Cars">
             <input type="submit" value="Get Car Info">
-
-            <main>
-                <h1>Smart</h1>
-                <h3>Make</h3>
-                <p id="Make"></p>
-                <h3>Model</h3>
-                <p id="Model"></p>
-                <h3>Year</h3>
-                <p id="Year"></p>
-                <h3>Costs</h3>
-                <p id="Costs"></p>
-                <h3>Features</h3>
-                <p id="Features"></p>
-                
-                </main>
-                <form>
-                    <input type="text" placeholder="Search Cars">
-                    <input type="submit" value="Get Car Info">
-                    
+        </form>
              <main>
-                        <h1>Sports</h1>
-                        <h3>Make</h3>
-                        <p id="Make"></p>
-                        <h3>Model</h3>
-                        <p id="Model"></p>
-                        <h3>Year</h3>
-                        <p id="Year"></p>
-                        <h3>Costs</h3>
-                        <p id="Costs"></p>
-                        <h3>Features</h3>
-                        <p id="Features"></p>
-                        </main>
+                <div class="headings">
+                <h2>Smart</h2>
+                </div>
+                <div class="results">
+                <h5>Make</h5>
+                <p id="makeSmart"></p>
+                <h5>Model</h5>
+                <p id="modelSmart"></p>
+                <h5>Year</h5>
+                <p id="yearSmart"></p>  
+                </div>
+            </main>
+                <form>
+                    <input type="text" id="typeFieldSmart" name="smartSearch" placeholder="Search Cars">
+                     <input type="submit" value="Get Car Info">
+                </form>
+             <main>
+                <div class="headings">
+                        <h2>Sports</h2>
+                    </div>
+                    <div class="results">
+                        <h5>Make</h5>
+                        <p id="makeSport"></p>
+                        <h5>Model</h5>
+                        <p id="modelSport"></p>
+                        <h5>Year</h5>
+                        <p id="yearSport"></p>
+                    </div>
+            </main>
                         <form>
-                            <input type="text" placeholder="Search Cars">
+                            <input type="text" id="typeFieldSport" name="sportSearch" placeholder="Search Cars">
                             <input type="submit" value="Get Car Info">
+                        </form>
 
-
-            <main>
-                                <h1>Luxury</h1>
-                                <h3>Make</h3>
-                                <p id="Make"></p>
-                                <h3>Model</h3>
-                                <p id="Model"></p>
-                                <h3>Year</h3>
-                                <p id="Year"></p>
-                                <h3>Costs</h3>
-                                <p id="Costs"></p>
-                                <h3>Features</h3>
-                                <p id="Features"></p>
-                                </main>
+             <main>
+                <div class="headings">
+                 <h2>Luxury</h2>
+                </div>
+                <div class="results">
+                 <h5>Make</h5>
+                 <p id="makeLuxury"></p>
+                 <h5>Model</h5>
+                 <p id="modelLuxury"></p>
+                 <h5>Year</h5>
+                 <p id="yearLuxury"></p>
+                </div>   
+             </main>
                                 <form>
-                                    <input type="text" placeholder="Search Cars">
-                                    <input type="submit" value="Get Car Info">
-    
+                                    <input type="text" id="typeFieldLuxury" name="luxurySearch" placeholder="Search Cars">
+                                     <input type="submit" value="Get Car Info">
+                                </form>
+                            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+
+            <h2>Article Pieces</h2>
+            <div class="article-container">
+            <h3>Latest News</h3>
+            <div class="article-content">
+            <div class="Lorem">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+             Molestias expedita nostrum dolore quam architecto, exercitationem <br>
+             dolor sint provident iusto officia eius illum officiis blanditiis obcaecati <br>
+             Molestias expedita nostrum dolore quam architecto, exercitationemsoluta <br>
+             beatae earum ratione? Unde! For more details click <a href="google.com">here.</a> </p> 
+            </div>
+        </div>
+    </div>
+        
+
+            <div class="article-container">
+            <h3>Future Updates and changes to come!</h3>
+            <div class="article-content">
+            <div class="Lorem">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+             Molestias expedita nostrum dolore quam architecto, exercitationem <br>
+             dolor sint provident iusto officia eius illum officiis blanditiis obcaecati <br>
+             Molestias expedita nostrum dolore quam architecto, exercitationemsoluta <br>
+             beatae earum ratione? Unde! For more details click <a href="google.com">here.</a> </p> 
+            </div>
+        </div>
+    </div>
+            <div class="article-container">
+            <h3>Customer Experience</h3>
+            <div class="article-content">
+            <div class="Lorem">
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+             Molestias expedita nostrum dolore quam architecto, exercitationem <br>
+             dolor sint provident iusto officia eius illum officiis blanditiis obcaecati <br>
+             Molestias expedita nostrum dolore quam architecto, exercitationemsoluta <br>
+             beatae earum ratione? Unde!" - John Doe.</a> </p> 
+            </div>
+        </div>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9RDjS6GYZRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/860nJaFf-xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>    
 </body>
+<footer>This is a rough draft brought to you by Aaron Jasper. E: aaronjasper94@gmail.com, T: 012-345-6789, W: aaronjasper@aaronjasper.com</footer>
+
 </html>
